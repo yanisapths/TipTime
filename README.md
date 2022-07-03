@@ -112,4 +112,20 @@ Now when you need a reference to a View in your app, you can get it from the bin
                  tools:text="Tip Amount: $10"
 
    ![image](https://user-images.githubusercontent.com/72002605/177025950-af6bd01a-dbfd-4daf-b731-189482941880.png)
+   
+   
+Test & Debug
+   
+ Calling toDouble() on a string that is empty or a string that doesn't represent a valid decimal number doesn't work. 
+    Fortunately Kotlin also provides a method called toDoubleOrNull() which handles these problems. 
+
+   - Null is a special value that means "no value". 
+    It's different from a Double having a value of 0.0 or an empty String with zero characters, "". 
+   - Null means there is no value, no Double or no String. Many methods expect a value and may not know how to handle null and will stop
+   
+          val cost = stringInTextField.toDoubleOrNull()
+              if (cost == null) {
+                  binding.tipAmount.text = ""
+                  return
+              }
 

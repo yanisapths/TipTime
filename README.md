@@ -128,4 +128,7 @@ Test & Debug
                   binding.tipAmount.text = ""
                   return
               }
-
+ 
+ Private 
+   The method or variable is only visible to code within that class, in this case, MainActivity class. There's no reason for code outside MainActivity to call calculateTip(), so you can safely make it private.
+   - Choose Make ‘calculateTip' ‘private', or add the private keyword or  _Alt+Shift+Enter_

@@ -132,3 +132,17 @@ Test & Debug
  Private 
    The method or variable is only visible to code within that class, in this case, MainActivity class. There's no reason for code outside MainActivity to call calculateTip(), so you can safely make it private.
    - Choose Make ‘calculateTip' ‘private', or add the private keyword or  _Alt+Shift+Enter_
+   
+   
+## Change App Theme
+
+- https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=90CAF9&secondary.color=5C6BC0
+
+Light Theme
+![image](https://user-images.githubusercontent.com/72002605/177027849-6dc38181-c5c3-4dd0-8902-f74930e4642d.png)
+
+Dark theme
+![image](https://user-images.githubusercontent.com/72002605/177027877-8868e01b-3218-4d4e-9bf0-cefda6aeff1d.png)
+
+
+

@@ -1,5 +1,8 @@
-# TipTime
-:money_with_wings: :money_with_wings:
+# :money_with_wings: TipTime :money_with_wings: 
+## Final Look
+
+   ![image](https://user-images.githubusercontent.com/72002605/177097339-6a0f0058-6fe2-4edc-ac25-124a04f0da0e.png)
+
 
 ## XML Layouts
 ![image](https://user-images.githubusercontent.com/72002605/177024866-9e9ac247-1346-4604-b078-f63a82fce3e5.png)
@@ -143,6 +146,4 @@ Light Theme
 
 Dark theme
 ![image](https://user-images.githubusercontent.com/72002605/177027877-8868e01b-3218-4d4e-9bf0-cefda6aeff1d.png)
-
-
 
